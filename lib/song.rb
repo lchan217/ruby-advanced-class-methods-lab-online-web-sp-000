@@ -43,5 +43,6 @@ class Song
     
     new.name = final[1]
     new.artist_name = final[0]
+    new
   end 
 end
