@@ -20,4 +20,7 @@ class Song
     song.name = song_name #sets property name
     song
   end 
+  def self.create_by_name
+    
+  end 
 end
