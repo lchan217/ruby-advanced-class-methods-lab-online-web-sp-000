@@ -37,7 +37,7 @@ class Song
   end 
   def self.new_from_filename(file)
     song = file.chomp(".mp3")
-    
+    final = song.split(" - ")
     
   end 
 end
