@@ -39,5 +39,6 @@ class Song
     song = file.chomp(".mp3")
     final = song.split(" - ")
     
+    
   end 
 end
