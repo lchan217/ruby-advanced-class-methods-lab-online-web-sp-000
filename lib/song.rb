@@ -35,4 +35,8 @@ class Song
   def self.alphabetical
     @@all.sort_by {|name| name.name}
   end 
+  def self.new_from_filename(file)
+    song = file.chomp("mp3")
+    
+  end 
 end
